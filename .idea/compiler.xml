@@ -12,6 +12,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="mall-goods-api" />
+        <module name="mall-goods-service" />
         <module name="mall-common" />
         <module name="mall-service-dependency" />
       </profile>
@@ -19,12 +21,14 @@
     <bytecodeTargetLevel>
       <module name="gupaoedu-vip-mall" target="1.8" />
       <module name="mall-api" target="15" />
-      <module name="mall-api (1)" target="15" />
-      <module name="mall-common" target="15" />
+      <module name="mall-api (1)" target="1.8" />
+      <module name="mall-common" target="1.8" />
       <module name="mall-gateway" target="15" />
-      <module name="mall-service" target="15" />
+      <module name="mall-goods-api" target="1.8" />
+      <module name="mall-goods-service" target="1.8" />
+      <module name="mall-service" target="1.8" />
       <module name="mall-service-dependency" target="15" />
-      <module name="mall-util" target="15" />
+      <module name="mall-util" target="1.8" />
       <module name="mall-web" target="15" />
     </bytecodeTargetLevel>
   </component>
@@ -35,6 +39,8 @@
       <module name="mall-api (1)" options="-parameters" />
       <module name="mall-common" options="-parameters" />
       <module name="mall-gateway" options="-parameters" />
+      <module name="mall-goods-api" options="-parameters" />
+      <module name="mall-goods-service" options="-parameters" />
       <module name="mall-service" options="-parameters" />
       <module name="mall-service-dependency" options="-parameters" />
       <module name="mall-util" options="-parameters" />

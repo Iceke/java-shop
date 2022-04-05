@@ -11,10 +11,10 @@
 
     <artifactId>mall-service</artifactId>
     <packaging>pom</packaging>
-    <properties>
-        <maven.compiler.source>15</maven.compiler.source>
-        <maven.compiler.target>15</maven.compiler.target>
-    </properties>
+    <modules>
+        <module>mall-goods-service</module>
+    </modules>
+
 
     <dependencies>
         <dependency>
