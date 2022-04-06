@@ -11,7 +11,7 @@ import java.util.List;
  * @Author: 波波
  * @Description: 咕泡云商城
  ****/
-public interface BrandMapper  {
+public interface BrandMapper extends BaseMapper<Brand> {
     /****
      * 1、根据分类ID查询品牌ID集合
      */
